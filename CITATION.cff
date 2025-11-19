@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: Please cite this project if you use the code.
+title: Local-Global Fusion for Small-Object Detection
+authors:
+  - family-names: Asera
+    given-names: Wayne
+date-released: 2025-01-01
+version: 0.1.0
+type: software
+license: MIT
+repository-code: https://example.com/placeholder
