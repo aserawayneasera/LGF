@@ -9,7 +9,7 @@ LGF mixes local detail with global context at C3 in RetinaNet. A depthwise local
 - Per-pixel, per-channel gating with sigmoid, residual connection
 - +1.2 AP_small on COCO Non‑weather, +1.2 AP_small on COCO Weather, mAP near baseline
 - Gains on ACDC with fog, night, rain, snow
-- +9% params, +3.6% FLOPs, +6% latency at 640px
+- +9% params, +3.6% FLOPs, +6% latency
 
 ## Install
 
