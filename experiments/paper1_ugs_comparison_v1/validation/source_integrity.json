@@ -1,0 +1,36 @@
+{
+  "archived_definition_cell_byte_exact": true,
+  "source_identity": {
+    "original_notebook": "2.train_evaluate_controls.ipynb",
+    "notebook_sha256": "e6c4aa3fd6a95019eb11ee0a35a068e968b0959d30c40f47bfdc82fdd80408f1",
+    "source_cell_index": 1,
+    "source_sha256": "64a662586fd3c5b71a850ca7db19079d13366dfabae7b764e02de1f49567ae95",
+    "scope": "Exact source of cell 1. Imported definitions only; original main and launch cells are not executed."
+  },
+  "notebooks": [
+    {
+      "file": "1a.visualize_create_coco_6c_train&val_dataset.ipynb",
+      "original_sha256": "bca2f5e0b6c6e8da4cf162b7941e9260f0061ea1eca0380cb73b9cd9edbd5ad0",
+      "storage_only_copy_sha256": "f390214ccaa344d2ee24f62adbf686638710704a0359415981cb852e7b8abe3c",
+      "unchanged_during_ugs_task": true
+    },
+    {
+      "file": "1b.create_weather_aug_coco_dataset.ipynb",
+      "original_sha256": "03c78c152feb7d8278878951f5d808191011728a4f2849da7eee581fc6aae9bc",
+      "storage_only_copy_sha256": "72f0e7e012ad64197d4001c8fbbb4f14f023cb5b5d663cad261c83102d8ad8f9",
+      "unchanged_during_ugs_task": true
+    },
+    {
+      "file": "2.train_evaluate_controls.ipynb",
+      "original_sha256": "e6c4aa3fd6a95019eb11ee0a35a068e968b0959d30c40f47bfdc82fdd80408f1",
+      "storage_only_copy_sha256": "52a0393cc94114e3441215ee9603c98cb1ec42fe9ce4c5631cc0e48ab06297b1",
+      "unchanged_during_ugs_task": true
+    },
+    {
+      "file": "3.parameters.ipynb",
+      "original_sha256": "8d1aa6a4ba888752d208ac4e94dcf1879815febd570f13e376527ed100eefc82",
+      "storage_only_copy_sha256": "4e3624d9b6f9b2d0a2aabf55fb4bd2a853ee04785719c4db9f324640bdaf142f",
+      "unchanged_during_ugs_task": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "core_bridge.py": "2840e194cb964b909a782bbd3d58f4020be6c6463c372333611d65ea6f399c92",
+  "data.py": "d69a03c39cb37f8ad77b25ded64e8ca2093666c3c235daa3a37bc78a5e1d5f32",
+  "evaluation.py": "f0e911c293e076d0ce25e1e038552bf7aa79f4ca2404fe90e92a8eb3ee507817",
+  "ugs.py": "411920155bc6e99183f0ca7cf8e2ba23953401473874a454982718f2dad4f9a1",
+  "utils.py": "a0b68afb8076105948e84ab67b12ff6ccd092eb0f53039c05e50b87eaaa24de7",
+  "vendor/original_core.py": "64a662586fd3c5b71a850ca7db19079d13366dfabae7b764e02de1f49567ae95",
+  "vendor/source_identity.json": "ba127f7aaa02de0dce163a0e0eecca14a6966eafe21117a68a065a208b9c6944"
+}

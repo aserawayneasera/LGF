@@ -1,0 +1,19 @@
+{
+  "release": "2026.10.13",
+  "manuscript_number": "PRLETTERS-D-26-00171",
+  "reference_documents": [
+    {
+      "name": "1.PRL_response_letter_revised_LATEST_VERSION.pdf",
+      "sha256": "49403a34f01dc443707cbe560fd6d8972a64a7649b585cb5ec3c6953bbff690a"
+    },
+    {
+      "name": "LGF_Draft_8pages_with_supp-revised-marked.pdf",
+      "sha256": "d786c1ac73e1fe436a979dba09d391dcc5f77afd5cca44af73650d3af018d01f"
+    }
+  ],
+  "reference_documents_included": false,
+  "datasets_included": false,
+  "checkpoints_included": false,
+  "scientific_runs_performed_during_packaging": false,
+  "model_source_sha256": "64a662586fd3c5b71a850ca7db19079d13366dfabae7b764e02de1f49567ae95"
+}

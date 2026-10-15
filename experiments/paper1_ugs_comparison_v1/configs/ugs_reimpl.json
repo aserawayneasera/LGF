@@ -1,0 +1,9 @@
+{
+  "alpha": 5.0,
+  "beta": 1.0,
+  "intervals": 10,
+  "um_weight": 0.1,
+  "ur_weight": 0.1,
+  "rho": 0.05,
+  "feature_reg_weight": 0.1
+}

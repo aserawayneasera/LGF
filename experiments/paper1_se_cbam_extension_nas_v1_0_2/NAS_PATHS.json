@@ -1,0 +1,10 @@
+{
+  "package": "/nas.dbms/asera/NEW/paper1_all_codes_with_test_evaluation/paper1_ugs_comparison_v1",
+  "python": "/nas.dbms/asera/paper1_ugs_env/bin/python",
+  "data_root": "/nas.dbms/asera/paper1_original/DATASET",
+  "reference_root": "/nas.dbms/asera/paper1_original/ugs_comparison/runs",
+  "run_root": "/nas.dbms/asera/paper1_original/ugs_comparison/runs",
+  "log_root": "/nas.dbms/asera/paper1_original/ugs_comparison/logs",
+  "torch_home": "/nas.dbms/asera/paper1_original/torch_cache",
+  "test_runtime_root": "/nas.dbms/asera/paper1_original/test_runtime"
+}

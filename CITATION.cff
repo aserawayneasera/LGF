@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the associated Local-global Fusion manuscript and this source release when using the code."
+type: software
+title: "Local-global Fusion for Small-object Detection: PRL revision experiment source"
+version: "2026.10.13"
+date-released: "2026-10-13"
+authors:
+  - family-names: Asera
+    given-names: Asera Wayne
+repository-code: "https://github.com/aserawayneasera/LGF"
+license: MIT
+abstract: "Recovered research source and documented workflows for PRLETTERS-D-26-00171."

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "model": "yolo11m",
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "torch": "2.10.0+cpu",
+      "torchvision": "0.25.0+cpu",
+      "ultralytics": "8.3.253",
+      "numpy": "2.3.5",
+      "pycocotools": "2.0.11",
+      "albumentations": "2.0.8"
+    },
+    "cuda": null,
+    "cuda_available": false,
+    "gpu": null
+  },
+  "full_architecture": true,
+  "training_epochs": 1,
+  "training_size": 64,
+  "shared_evaluation_sizes": [
+    64,
+    96
+  ],
+  "checkpoint_reload_predictions_identical": true,
+  "scientific_result": false
+}

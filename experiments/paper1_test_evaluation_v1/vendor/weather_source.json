@@ -1,0 +1,13 @@
+{
+  "notebook": "1b.create_weather_aug_coco_dataset.ipynb",
+  "notebook_sha256": "03c78c152feb7d8278878951f5d808191011728a4f2849da7eee581fc6aae9bc",
+  "functions": [
+    "_gaussian_mask",
+    "add_fog",
+    "add_rain",
+    "add_snow",
+    "weather_once"
+  ],
+  "all_notebook_copies_ast_identical": true,
+  "generated_module_sha256": "eeed06e594b19f961e0cf1b167c8ff8de93af8a4a8c83206b2ededc1196e2482"
+}

@@ -1,0 +1,70 @@
+{
+  "synthetic": true,
+  "method_label": "UGS reimplementation (RetinaNet; CE+UM+UR)",
+  "environment": {
+    "python": "3.12.14",
+    "packages": {
+      "torch": "2.10.0+cpu",
+      "torchvision": "0.25.0+cpu",
+      "albumentations": "2.0.8",
+      "numpy": "2.3.5",
+      "pycocotools": "2.0.11",
+      "opencv-python-headless": "5.0.0.93"
+    },
+    "cuda_available": false,
+    "torch_cuda": null,
+    "gpu": null
+  },
+  "stages": [
+    {
+      "phase": "heads",
+      "losses": {
+        "classification": 1.1353564262390137,
+        "ugs_ce": 9.698280334472656,
+        "ugs_um": 0.9558505415916443,
+        "ugs_ur": 5.900819301605225
+      },
+      "gradient_norm": 34.682167053222656,
+      "ugs_diagnostics": {
+        "positive_anchors": 8,
+        "regression_coordinates": 32,
+        "clipped_coordinates": 0,
+        "max_perturbation_l2": 0.05000000819563866,
+        "nonzero_perturbation_directions": 2,
+        "ce_unweighted": 9.698280334472656,
+        "um_unweighted": 9.558505058288574,
+        "ur_entropy_unweighted": 9.558518409729004,
+        "feature_reg_unweighted": 494.49676513671875
+      }
+    },
+    {
+      "phase": "all",
+      "losses": {
+        "classification": 1.1347980499267578,
+        "ugs_ce": 9.66427993774414,
+        "ugs_um": 0.9558727145195007,
+        "ugs_ur": 5.900842189788818
+      },
+      "gradient_norm": 115.09636688232422,
+      "ugs_diagnostics": {
+        "positive_anchors": 8,
+        "regression_coordinates": 32,
+        "clipped_coordinates": 0,
+        "max_perturbation_l2": 0.05000000819563866,
+        "nonzero_perturbation_directions": 2,
+        "ce_unweighted": 9.66427993774414,
+        "um_unweighted": 9.558727264404297,
+        "ur_entropy_unweighted": 9.558741569519043,
+        "feature_reg_unweighted": 494.49676513671875
+      }
+    }
+  ],
+  "scientific_result": false,
+  "smoke_only_score_thresh": 0.0,
+  "status": "passed",
+  "prediction_counts": [
+    100,
+    100
+  ],
+  "checkpoint_reload_identical": true
+}

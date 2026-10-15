@@ -1,0 +1,7 @@
+{
+  "url": "https://s3.amazonaws.com/images.cocodataset.org/zips/test2017.zip",
+  "status": 200,
+  "bytes": 6646970404,
+  "etag": "\"1d4d2301bdee781394c21718428764d2-793\"",
+  "verification": "HEAD only; full image archive not downloaded here"
+}

@@ -1,0 +1,7 @@
+PROBE START nms device=cpu
+TORCH 2.10.0+cpu FROM /workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torch/__init__.py
+CUDA BUILD None; CUDNN None
+TORCHVISION 0.25.0+cpu FROM /workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torchvision/__init__.py
+NMS small nonempty input
+NMS 1024 nonoverlapping boxes
+PROBE PASS nms device=cpu

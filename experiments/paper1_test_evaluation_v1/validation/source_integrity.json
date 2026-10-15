@@ -1,0 +1,110 @@
+{
+  "all_original_python_and_notebook_sources_unchanged": true,
+  "files": [
+    {
+      "file": "paper1_ugs_comparison_v1/compare.py",
+      "sha256": "f8edf511547691d99b24e8a61d2dd23f741c106fcbe03bda342bead2202b8d51",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/data.py",
+      "sha256": "d69a03c39cb37f8ad77b25ded64e8ca2093666c3c235daa3a37bc78a5e1d5f32",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/core_bridge.py",
+      "sha256": "2840e194cb964b909a782bbd3d58f4020be6c6463c372333611d65ea6f399c92",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/utils.py",
+      "sha256": "a0b68afb8076105948e84ab67b12ff6ccd092eb0f53039c05e50b87eaaa24de7",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/ugs.py",
+      "sha256": "411920155bc6e99183f0ca7cf8e2ba23953401473874a454982718f2dad4f9a1",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/run.py",
+      "sha256": "c8b9fa690d8b37aa910315bc3f283fe248ac66382e6d6161e7bee4e2ef0bd743",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/evaluation.py",
+      "sha256": "f0e911c293e076d0ce25e1e038552bf7aa79f4ca2404fe90e92a8eb3ee507817",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/tests/test_ugs.py",
+      "sha256": "b61bef3082b6ee5961d0db0bf7420426980b4fb1de6a5bcc8bed0ce8696d51a3",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/tests/test_pipeline.py",
+      "sha256": "ea4dd9742745a398dbbee77466798ebd1d0ce51eb0a89493718e6b364e3df3cb",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/tests/test_comparison.py",
+      "sha256": "ac280b86d86a84f9cc76010579390cafbb7e8d3e5ba05bfdf2a137fac1af554f",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_ugs_comparison_v1/vendor/original_core.py",
+      "sha256": "64a662586fd3c5b71a850ca7db19079d13366dfabae7b764e02de1f49567ae95",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_reviewer34_v1/reviewer34_compare.py",
+      "sha256": "7c5db4eb9a946188cf544b8eb3a6ffd9d8af5eaf7954e16d66c57cd43dce0fd1",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_reviewer34_v1/tests/test_reviewer34.py",
+      "sha256": "4e3d5f2796275ac4117058904c1e7645dda826b742ed985be2369eed115f32ea",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_original_tmp/1a.visualize_create_coco_6c_train&val_dataset.ipynb",
+      "sha256": "f390214ccaa344d2ee24f62adbf686638710704a0359415981cb852e7b8abe3c",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_original_tmp/3.parameters.ipynb",
+      "sha256": "4e3624d9b6f9b2d0a2aabf55fb4bd2a853ee04785719c4db9f324640bdaf142f",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_original_tmp/1b.create_weather_aug_coco_dataset.ipynb",
+      "sha256": "72f0e7e012ad64197d4001c8fbbb4f14f023cb5b5d663cad261c83102d8ad8f9",
+      "unchanged": true
+    },
+    {
+      "file": "paper1_original_tmp/2.train_evaluate_controls.ipynb",
+      "sha256": "52a0393cc94114e3441215ee9603c98cb1ec42fe9ce4c5631cc0e48ab06297b1",
+      "unchanged": true
+    },
+    {
+      "file": "upload/1a.visualize_create_coco_6c_train&val_dataset.ipynb",
+      "sha256": "bca2f5e0b6c6e8da4cf162b7941e9260f0061ea1eca0380cb73b9cd9edbd5ad0",
+      "unchanged": true
+    },
+    {
+      "file": "upload/1b.create_weather_aug_coco_dataset.ipynb",
+      "sha256": "03c78c152feb7d8278878951f5d808191011728a4f2849da7eee581fc6aae9bc",
+      "unchanged": true
+    },
+    {
+      "file": "upload/2.train_evaluate_controls.ipynb",
+      "sha256": "e6c4aa3fd6a95019eb11ee0a35a068e968b0959d30c40f47bfdc82fdd80408f1",
+      "unchanged": true
+    },
+    {
+      "file": "upload/3.parameters.ipynb",
+      "sha256": "8d1aa6a4ba888752d208ac4e94dcf1879815febd570f13e376527ed100eefc82",
+      "unchanged": true
+    }
+  ]
+}

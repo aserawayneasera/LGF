@@ -1,0 +1,63 @@
+test_different_checkpoint_selection_rejected (test_comparison.ComparisonTests.test_different_checkpoint_selection_rejected) ... ok
+test_different_evaluation_rejected (test_comparison.ComparisonTests.test_different_evaluation_rejected) ... ok
+test_different_seed_sets_rejected (test_comparison.ComparisonTests.test_different_seed_sets_rejected) ... ok
+test_different_ugs_configurations_rejected (test_comparison.ComparisonTests.test_different_ugs_configurations_rejected) ... ok
+test_three_seed_mean_and_sample_standard_deviation (test_comparison.ComparisonTests.test_three_seed_mean_and_sample_standard_deviation) ... ok
+test_audit_rejects_category_mapping_difference (test_pipeline.PipelineTests.test_audit_rejects_category_mapping_difference) ... ok
+test_audit_rejects_identical_images_across_splits (test_pipeline.PipelineTests.test_audit_rejects_identical_images_across_splits) ... ok
+test_exported_predictions_match_native_perfect_detection_ap (test_pipeline.PipelineTests.test_exported_predictions_match_native_perfect_detection_ap) ... /workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/albumentations/core/composition.py:331: UserWarning: Got processor for bboxes, but no transform to process it.
+  self._set_keys()
+/workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torchvision/models/detection/backbone_utils.py:162: UserWarning: Changing trainable_backbone_layers has no effect if neither pretrained nor pretrained_backbone have been set to True, falling back to trainable_backbone_layers=5 so that all layers are trainable
+  warnings.warn(
+
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]
+Evaluating: 100%|██████████| 1/1 [00:00<00:00, 218.81it/s]
+ok
+test_original_baseline_and_lgf_forward_are_preserved (test_pipeline.PipelineTests.test_original_baseline_and_lgf_forward_are_preserved) ... /workspace/scratch/6c1737cfcc0f/output/paper1_ugs_comparison_v1/vendor/original_core.py:299: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+ok
+test_resnet_training_interruption_resume_and_checkpoint_selection (test_pipeline.PipelineTests.test_resnet_training_interruption_resume_and_checkpoint_selection) ... 
+ugs_reimpl coco_nw s42 epoch 1/2:   0%|          | 0/2 [00:00<?, ?it/s]
+ugs_reimpl coco_nw s42 epoch 1/2:   0%|          | 0/2 [00:00<?, ?it/s, loss=17.2306, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 1/2:  50%|█████     | 1/2 [00:00<00:00,  3.44it/s, loss=17.2306, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 1/2:  50%|█████     | 1/2 [00:00<00:00,  3.44it/s, loss=17.6531, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 1/2: 100%|██████████| 2/2 [00:00<00:00,  2.40it/s, loss=17.6531, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 1/2: 100%|██████████| 2/2 [00:00<00:00,  2.47it/s, loss=17.6531, lr=5e-5]
+
+ugs_reimpl coco_nw s42 epoch 2/2:   0%|          | 0/2 [00:00<?, ?it/s]
+ugs_reimpl coco_nw s42 epoch 2/2:   0%|          | 0/2 [00:00<?, ?it/s, loss=17.3691, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 2/2:  50%|█████     | 1/2 [00:00<00:00,  2.23it/s, loss=17.3691, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 2/2:  50%|█████     | 1/2 [00:01<00:00,  2.23it/s, loss=17.9753, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 2/2: 100%|██████████| 2/2 [00:01<00:00,  1.48it/s, loss=17.9753, lr=5e-5]
+ugs_reimpl coco_nw s42 epoch 2/2: 100%|██████████| 2/2 [00:01<00:00,  1.56it/s, loss=17.9753, lr=5e-5]
+
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]
+Evaluating: 100%|██████████| 1/1 [00:00<00:00, 10.14it/s]
+
+Evaluating:   0%|          | 0/1 [00:00<?, ?it/s]
+Evaluating: 100%|██████████| 1/1 [00:00<00:00, 11.08it/s]
+ok
+test_ablation_is_labelled_and_removes_auxiliary_losses (test_ugs.HeadTests.test_ablation_is_labelled_and_removes_auxiliary_losses) ... ok
+test_empty_targets_have_zero_localization_loss (test_ugs.HeadTests.test_empty_targets_have_zero_localization_loss) ... ok
+test_frozen_backbone_features_support_refinement (test_ugs.HeadTests.test_frozen_backbone_features_support_refinement) ... ok
+test_full_loss_backpropagates_to_features_and_distribution_layer (test_ugs.HeadTests.test_full_loss_backpropagates_to_features_and_distribution_layer) ... ok
+test_refinement_has_no_inference_branch (test_ugs.HeadTests.test_refinement_has_no_inference_branch) ... ok
+test_ugs_does_not_change_classification_loss (test_ugs.HeadTests.test_ugs_does_not_change_classification_loss) ... ok
+test_ce_gradient_is_probability_minus_normalized_target (test_ugs.QuantizationTests.test_ce_gradient_is_probability_minus_normalized_target) ... ok
+test_entropy_gradient_has_softmax_chain_rule (test_ugs.QuantizationTests.test_entropy_gradient_has_softmax_chain_rule) ... ok
+test_grid_is_symmetric_monotone_and_has_exact_endpoints (test_ugs.QuantizationTests.test_grid_is_symmetric_monotone_and_has_exact_endpoints) ... ok
+test_invalid_hyperparameters_rejected (test_ugs.QuantizationTests.test_invalid_hyperparameters_rejected) ... ok
+test_nonuniform_expectation_decodes_known_boxes (test_ugs.QuantizationTests.test_nonuniform_expectation_decodes_known_boxes) ... ok
+test_out_of_range_clips_to_boundary (test_ugs.QuantizationTests.test_out_of_range_clips_to_boundary) ... ok
+test_perturbation_norm_and_zero_gradient (test_ugs.QuantizationTests.test_perturbation_norm_and_zero_gradient) ... ok
+test_two_hot_normalizes_and_reconstructs_targets (test_ugs.QuantizationTests.test_two_hot_normalizes_and_reconstructs_targets) ... ok
+test_uniform_limit (test_ugs.QuantizationTests.test_uniform_limit) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 15.111s
+
+OK
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!

@@ -1,0 +1,18 @@
+{
+  "source_archive": "balanced_failure_analysis_v1.zip",
+  "analysis_manifest_sha256": "b243d190a55828955364fab234e27fd1ead8c0c80964ba1fb14b22de4c81caaa",
+  "image_counts_csv_sha256": "95a116ce2c04866fef3f03f0563d0d4a5f776e6639b92ebce7370973b29f7174",
+  "unique_image_ids": {
+    "acdc": 399,
+    "coco_nw": 500,
+    "coco_weather": 500
+  },
+  "coco_weather_filenames": {
+    "total_unique": 500,
+    "ending_fog_jpg": 500
+  },
+  "coco_weather_annotation_basename": "mini_val2017_weather-500k6c.json",
+  "latest_manuscript_diagnostic_description": 1500,
+  "saved_export_weather_images": 500,
+  "raw_records_distributed": false
+}

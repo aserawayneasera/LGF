@@ -1,0 +1,122 @@
+SMOKE ARTIFACTS /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub
+Ultralytics 8.3.253 🚀 Python-3.12.14 torch-2.10.0+cpu CPU (INTEL XEON PLATINUM 8573C)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/prepared/coco_nw/dataset.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=1, erasing=0.4, exist_ok=True, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=64, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.005, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11m.yaml, momentum=0.9, mosaic=0.0, multi_scale=False, name=native, nbs=16, nms=False, opset=None, optimize=False, optimizer=SGD, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=False, profile=False, project=/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42/native, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.0, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.0, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=2.0, warmup_momentum=0.8, weight_decay=0.0001, workers=0, workspace=None
+Overriding model.yaml nc=80 with nc=6
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1      1856  ultralytics.nn.modules.conv.Conv             [3, 64, 3, 2]                 
+  1                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  2                  -1  1    111872  ultralytics.nn.modules.block.C3k2            [128, 256, 1, True, 0.25]     
+  3                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              
+  4                  -1  1    444928  ultralytics.nn.modules.block.C3k2            [256, 512, 1, True, 0.25]     
+  5                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+  6                  -1  1   1380352  ultralytics.nn.modules.block.C3k2            [512, 512, 1, True]           
+  7                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+  8                  -1  1   1380352  ultralytics.nn.modules.block.C3k2            [512, 512, 1, True]           
+  9                  -1  1    656896  ultralytics.nn.modules.block.SPPF            [512, 512, 5]                 
+ 10                  -1  1    990976  ultralytics.nn.modules.block.C2PSA           [512, 512, 1]                 
+ 11                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 12             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 13                  -1  1   1642496  ultralytics.nn.modules.block.C3k2            [1024, 512, 1, True]          
+ 14                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 15             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 16                  -1  1    542720  ultralytics.nn.modules.block.C3k2            [1024, 256, 1, True]          
+ 17                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              
+ 18            [-1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 19                  -1  1   1511424  ultralytics.nn.modules.block.C3k2            [768, 512, 1, True]           
+ 20                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+ 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 22                  -1  1   1642496  ultralytics.nn.modules.block.C3k2            [1024, 512, 1, True]          
+ 23        [16, 19, 22]  1   1415650  ultralytics.nn.modules.head.Detect           [6, [256, 512, 512]]          
+YOLO11m summary: 231 layers, 20,057,634 parameters, 20,057,618 gradients, 68.2 GFLOPs
+
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 602.3±329.8 MB/s, size: 12.1 KB)
+[K[34m[1mtrain: [0mScanning /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/prepared/coco_nw/labels/train... 4 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 4/4 1.2Kit/s 0.0s
+[34m[1mtrain: [0mNew cache created: /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/prepared/coco_nw/labels/train.cache
+[34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 878.2±343.1 MB/s, size: 18.1 KB)
+[K[34m[1mval: [0mScanning /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/prepared/coco_nw/labels/val... 2 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2/2 1.4Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/prepared/coco_nw/labels/val.cache
+[34m[1moptimizer:[0m SGD(lr=0.005, momentum=0.9) with parameter groups 106 weight(decay=0.0), 113 weight(decay=0.0001), 112 bias(decay=0.0)
+Image sizes 64 train, 64 val
+Using 0 dataloader workers
+Logging results to [1m/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42/native[0m
+Starting training for 1 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K        1/1         0G   0.008039     0.1601   0.004702          2         64: 0% ──────────── 0/2  0.3s[K        1/1         0G    0.01067     0.1619   0.006221          2         64: 50% ━━━━━━────── 1/2 7.1s/it 2.4s<7.1s[K        1/1         0G    0.01067     0.1619   0.006221          2         64: 100% ━━━━━━━━━━━━ 2/2 1.2s/it 2.4s
+SMOKE PHASE on_train_epoch_end
+SMOKE PHASE on_val_start
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 6.8it/s 0.1s
+                   all          2          2          0          0          0          0
+SMOKE PHASE on_val_end
+SMOKE PHASE on_model_save
+EVAL yolo11m 2/2
+SHARED EVALUATION PASS epoch=1 APsmall=0.000000
+
+1 epochs completed in 0.001 hours.
+Optimizer stripped from /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42/native/weights/last.pt, 40.5MB
+Optimizer stripped from /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42/native/weights/best.pt, 40.5MB
+
+Validating /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42/native/weights/best.pt...
+Ultralytics 8.3.253 🚀 Python-3.12.14 torch-2.10.0+cpu CPU (INTEL XEON PLATINUM 8573C)
+YOLO11m summary (fused): 125 layers, 20,034,658 parameters, 0 gradients, 67.7 GFLOPs
+SMOKE PHASE on_val_start
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 21.1it/s 0.0s
+                   all          2          2          0          0          0          0
+                person          1          1          0          0          0          0
+               bicycle          1          1          0          0          0          0
+SMOKE PHASE on_val_end
+Speed: 0.1ms preprocess, 21.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+SMOKE PHASE on_train_end
+TRAINING COMPLETE /workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub/work/runs/coco_nw/yolo11m/seed_42
+EVAL yolo11m 2/2
+{
+  "status": "passed",
+  "model": "yolo11m",
+  "environment": {
+    "python": "3.12.14",
+    "python_executable": "/workspace/scratch/6c1737cfcc0f/inspection/recent_test_env/bin/python",
+    "module_paths": {
+      "torch": "/workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torch/__init__.py",
+      "torchvision": "/workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torchvision/__init__.py",
+      "ultralytics": "/workspace/scratch/6c1737cfcc0f/inspection/recent_test_env/lib/python3.12/site-packages/ultralytics/__init__.py"
+    },
+    "packages": {
+      "torch": "2.10.0+cpu",
+      "torchvision": "0.25.0+cpu",
+      "ultralytics": "8.3.253",
+      "numpy": "2.3.5",
+      "pycocotools": "2.0.11",
+      "albumentations": "2.0.8"
+    },
+    "cuda": null,
+    "cuda_available": false,
+    "gpu": null
+  },
+  "full_architecture": true,
+  "training_epochs": 1,
+  "training_size": 64,
+  "shared_evaluation_sizes": [
+    64,
+    96
+  ],
+  "checkpoint_reload_predictions_identical": true,
+  "scientific_result": false,
+  "artifacts": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_work/diagnostics/smoke_yolo11m_x6sah0ub",
+  "reload_comparison": {
+    "checkpoint_bytes_identical": true,
+    "evaluation_signatures_identical": true,
+    "prediction_counts": [
+      16,
+      16
+    ],
+    "row_identities_identical": true,
+    "predictions_identical": true,
+    "metrics_identical": true,
+    "passed": true,
+    "max_box_absolute_difference_pixels": 0.0,
+    "max_score_absolute_difference": 0.0
+  }
+}

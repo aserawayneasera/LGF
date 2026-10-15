@@ -1,0 +1,10 @@
+{
+  "purpose": "Read-only source interface evidence. These files are not redistributed as model replacements.",
+  "date": "2026-09-21",
+  "sources": {
+    "run_paper1_test_grid.py": "97a05c4831496d65aab47b5faff62772e495a3f6230a4a8d26e32c51cf54187e",
+    "test_data.py": "7c3fc777e7ab111e1ad8ec774b47109f6f6e31d397949536bdf172437123b48b",
+    "models.py": "b342c2252c9fb90915732ea56cb6d77d04a6bbdffe57cdcd6db9bc990503c4db",
+    "evaluate_test.py": "72ec25beee412b05af040d992cf4a346c0cc1a9ba5e2828d34c2dd6c46e9cfad"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "python": "/workspace/scratch/6c1737cfcc0f/inspection/recent_test_env/bin/python",
+  "device": "cpu",
+  "diagnostic_cuda_launch_blocking": true,
+  "checks": [
+    {
+      "name": "environment",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/environment.log",
+      "status": "passed"
+    },
+    {
+      "name": "tensor_cpu",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/tensor_cpu.log",
+      "status": "passed"
+    },
+    {
+      "name": "convolution_cpu",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/convolution_cpu.log",
+      "status": "passed"
+    },
+    {
+      "name": "nms_cpu",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/nms_cpu.log",
+      "status": "passed"
+    },
+    {
+      "name": "smoke_yolo11m",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_yolo11m.log",
+      "status": "passed"
+    },
+    {
+      "name": "smoke_rtdetr-l",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_cpu/run_20260915T041328946935Z/smoke_rtdetr-l.log",
+      "status": "passed"
+    }
+  ],
+  "complete": true,
+  "scientific_result": false,
+  "status": "passed",
+  "full_smoke_requested": true
+}

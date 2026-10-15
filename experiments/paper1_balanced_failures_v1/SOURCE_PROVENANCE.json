@@ -1,0 +1,20 @@
+{
+  "source_package": "paper1_balanced_failures_v1",
+  "preserved_scientific_python": true,
+  "removed_generated_directories": [
+    "validation"
+  ],
+  "integration_changes": [
+    "Repository documentation links",
+    "Portable shell launcher paths where present",
+    "Synthetic regression tests where newly added",
+    "Source-only checksums regenerated"
+  ],
+  "original_files_sha256": {
+    "CHECKSUMS.sha256": "c60a63bbf779fabad03facdab58250186472cd122915587837d120614351419d",
+    "README.md": "cd823f94f0580cf8002a094a9e690f8577dd5c823f8afc483e87e9cd07ef72a0",
+    "paper1_failure_analysis.py": "aa69a0e3af23c98ea61509b7806ef38a7fc2b3e255e117dfe413c4b1b62db559",
+    "run_failure_analysis.sh": "8e5b42d0109107a7f9a4cc86d2f3316b7302ae82797a6f216c17e00948001de4",
+    "tests/test_failure_analysis.py": "1fb24a07ef4d2bff1777eae93946316b82bee29f3460d7868234c4c758486135"
+  }
+}

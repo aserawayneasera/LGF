@@ -1,0 +1,7 @@
+# Use your existing torch 2.10.x / torchvision 0.25.x CUDA environment.
+# Do not reinstall torch or torchvision for this evaluation package.
+albumentations==2.0.8
+pycocotools>=2.0.7,<3
+tensorboard>=2.16,<3
+matplotlib>=3.7
+tqdm>=4.66

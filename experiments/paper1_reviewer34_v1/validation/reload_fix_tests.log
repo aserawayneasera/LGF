@@ -1,0 +1,137 @@
+test_exception_restores_caller_settings (test_reload_fix.InferenceSettingsTests.test_exception_restores_caller_settings) ... ok
+test_trainer_teardown_does_not_change_inference_policy (test_reload_fix.InferenceSettingsTests.test_trainer_teardown_does_not_change_inference_policy) ... ok
+test_changed_class_rejected (test_reload_fix.ReloadGateTests.test_changed_class_rejected) ... ok
+test_changed_evaluation_protocol_rejected (test_reload_fix.ReloadGateTests.test_changed_evaluation_protocol_rejected) ... ok
+test_changed_metrics_rejected (test_reload_fix.ReloadGateTests.test_changed_metrics_rejected) ... ok
+test_different_checkpoint_rejected (test_reload_fix.ReloadGateTests.test_different_checkpoint_rejected) ... ok
+test_identical_predictions_and_metrics_pass (test_reload_fix.ReloadGateTests.test_identical_predictions_and_metrics_pass) ... ok
+test_tiny_drift_is_reported_and_not_silently_accepted (test_reload_fix.ReloadGateTests.test_tiny_drift_is_reported_and_not_silently_accepted) ... ok
+test_changed_prediction_bytes_rejected (test_reviewer34.ComparisonTests.test_changed_prediction_bytes_rejected) ... ok
+test_mismatched_evaluation_rejected (test_reviewer34.ComparisonTests.test_mismatched_evaluation_rejected) ... ok
+test_mismatched_seeds_rejected (test_reviewer34.ComparisonTests.test_mismatched_seeds_rejected) ... ok
+test_mismatched_selection_rejected (test_reviewer34.ComparisonTests.test_mismatched_selection_rejected) ... ok
+test_paired_seed_summary (test_reviewer34.ComparisonTests.test_paired_seed_summary) ... ok
+test_synthetic_smoke_not_accepted_as_research (test_reviewer34.ComparisonTests.test_synthetic_smoke_not_accepted_as_research) ... ok
+test_changed_labels_rejected_on_reuse (test_reviewer34.DatasetTests.test_changed_labels_rejected_on_reuse) ... ok
+test_dimension_disagreement_rejected (test_reviewer34.DatasetTests.test_dimension_disagreement_rejected) ... ok
+test_duplicate_targets_rejected (test_reviewer34.DatasetTests.test_duplicate_targets_rejected) ... ok
+test_identical_scene_bytes_rejected (test_reviewer34.DatasetTests.test_identical_scene_bytes_rejected) ... ok
+test_noncontiguous_category_ids_and_box_roundtrip (test_reviewer34.DatasetTests.test_noncontiguous_category_ids_and_box_roundtrip) ... ok
+test_original_small_box_filter_and_crowd_inclusion (test_reviewer34.DatasetTests.test_original_small_box_filter_and_crowd_inclusion) ... ok
+test_outside_targets_rejected (test_reviewer34.DatasetTests.test_outside_targets_rejected) ... ok
+test_perfect_and_empty_predictions_use_coco (test_reviewer34.DatasetTests.test_perfect_and_empty_predictions_use_coco) ... ok
+test_checkpoint_validation_data_change_rejected (test_reviewer34.EvaluationGuardTests.test_checkpoint_validation_data_change_rejected) ... ok
+test_validation_images_cannot_be_relabelled_as_test (test_reviewer34.EvaluationGuardTests.test_validation_images_cannot_be_relabelled_as_test) ... ok
+test_wrong_checkpoint_selection_label_rejected (test_reviewer34.EvaluationGuardTests.test_wrong_checkpoint_selection_label_rejected) ... ok
+test_boxes_return_to_original_coordinates (test_reviewer34.GeometryTests.test_boxes_return_to_original_coordinates) ... ok
+test_resize_matches_torchvision_geometry_and_interpolation (test_reviewer34.GeometryTests.test_resize_matches_torchvision_geometry_and_interpolation) ... ok
+test_original_lgf_checkpoint_prediction_export_matches_direct_forward (test_reviewer34.LegacyAdapterTests.test_original_lgf_checkpoint_prediction_export_matches_direct_forward) ... /workspace/scratch/887f0941a846/work/paper1_all_codes_with_test_evaluation/paper1_ugs_comparison_v1/vendor/original_core.py:299: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+ok
+test_native_epoch_checkpoint_resumes_and_selects_shared_coco_checkpoint (test_reviewer34.ResumeTests.test_native_epoch_checkpoint_resumes_and_selects_shared_coco_checkpoint) ... Ultralytics 8.3.253 🚀 Python-3.12.14 torch-2.10.0+cpu CPU (INTEL XEON PLATINUM 8573C)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/tmp/tmpfgiwfyw8/work/prepared/coco_nw/dataset.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=True, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=64, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.005, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=yolo11m.yaml, momentum=0.9, mosaic=0.0, multi_scale=False, name=native, nbs=16, nms=False, opset=None, optimize=False, optimizer=SGD, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=False, profile=False, project=/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42, rect=False, resume=False, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.0, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.0, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=2.0, warmup_momentum=0.8, weight_decay=0.0001, workers=0, workspace=None
+Overriding model.yaml nc=80 with nc=6
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1      1856  ultralytics.nn.modules.conv.Conv             [3, 64, 3, 2]                 
+  1                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  2                  -1  1    111872  ultralytics.nn.modules.block.C3k2            [128, 256, 1, True, 0.25]     
+  3                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              
+  4                  -1  1    444928  ultralytics.nn.modules.block.C3k2            [256, 512, 1, True, 0.25]     
+  5                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+  6                  -1  1   1380352  ultralytics.nn.modules.block.C3k2            [512, 512, 1, True]           
+  7                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+  8                  -1  1   1380352  ultralytics.nn.modules.block.C3k2            [512, 512, 1, True]           
+  9                  -1  1    656896  ultralytics.nn.modules.block.SPPF            [512, 512, 5]                 
+ 10                  -1  1    990976  ultralytics.nn.modules.block.C2PSA           [512, 512, 1]                 
+ 11                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 12             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 13                  -1  1   1642496  ultralytics.nn.modules.block.C3k2            [1024, 512, 1, True]          
+ 14                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 15             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 16                  -1  1    542720  ultralytics.nn.modules.block.C3k2            [1024, 256, 1, True]          
+ 17                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              
+ 18            [-1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 19                  -1  1   1511424  ultralytics.nn.modules.block.C3k2            [768, 512, 1, True]           
+ 20                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+ 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 22                  -1  1   1642496  ultralytics.nn.modules.block.C3k2            [1024, 512, 1, True]          
+ 23        [16, 19, 22]  1   1415650  ultralytics.nn.modules.head.Detect           [6, [256, 512, 512]]          
+YOLO11m summary: 231 layers, 20,057,634 parameters, 20,057,618 gradients, 68.2 GFLOPs
+
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 924.4±395.5 MB/s, size: 12.1 KB)
+[34m[1mtrain: [0mNew cache created: /tmp/tmpfgiwfyw8/work/prepared/coco_nw/labels/train.cache
+[34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1071.4±545.3 MB/s, size: 18.1 KB)
+[34m[1mval: [0mNew cache created: /tmp/tmpfgiwfyw8/work/prepared/coco_nw/labels/val.cache
+[34m[1moptimizer:[0m SGD(lr=0.005, momentum=0.9) with parameter groups 106 weight(decay=0.0), 113 weight(decay=0.0001), 112 bias(decay=0.0)
+Image sizes 64 train, 64 val
+Using 0 dataloader workers
+Logging results to [1m/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all          2          2          0          0          0          0
+Ultralytics 8.3.253 🚀 Python-3.12.14 torch-2.10.0+cpu CPU (INTEL XEON PLATINUM 8573C)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=False, augment=False, auto_augment=randaugment, batch=2, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=0, cls=0.5, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/tmp/tmpfgiwfyw8/work/prepared/coco_nw/dataset.yaml, degrees=0.0, deterministic=True, device=cpu, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=2, erasing=0.4, exist_ok=True, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=64, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.005, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native/weights/last.pt, momentum=0.9, mosaic=0.0, multi_scale=False, name=native, nbs=16, nms=False, opset=None, optimize=False, optimizer=SGD, overlap_mask=True, patience=0, perspective=0.0, plots=False, pose=12.0, pretrained=False, profile=False, project=/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42, rect=False, resume=/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native/weights/last.pt, retina_masks=False, save=True, save_conf=False, save_crop=False, save_dir=/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.0, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=botsort.yaml, translate=0.0, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=2.0, warmup_momentum=0.8, weight_decay=0.0001, workers=0, workspace=None
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1      1856  ultralytics.nn.modules.conv.Conv             [3, 64, 3, 2]                 
+  1                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  2                  -1  1    111872  ultralytics.nn.modules.block.C3k2            [128, 256, 1, True, 0.25]     
+  3                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              
+  4                  -1  1    444928  ultralytics.nn.modules.block.C3k2            [256, 512, 1, True, 0.25]     
+  5                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+  6                  -1  1   1380352  ultralytics.nn.modules.block.C3k2            [512, 512, 1, True]           
+  7                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+  8                  -1  1   1380352  ultralytics.nn.modules.block.C3k2            [512, 512, 1, True]           
+  9                  -1  1    656896  ultralytics.nn.modules.block.SPPF            [512, 512, 5]                 
+ 10                  -1  1    990976  ultralytics.nn.modules.block.C2PSA           [512, 512, 1]                 
+ 11                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 12             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 13                  -1  1   1642496  ultralytics.nn.modules.block.C3k2            [1024, 512, 1, True]          
+ 14                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 15             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 16                  -1  1    542720  ultralytics.nn.modules.block.C3k2            [1024, 256, 1, True]          
+ 17                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              
+ 18            [-1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 19                  -1  1   1511424  ultralytics.nn.modules.block.C3k2            [768, 512, 1, True]           
+ 20                  -1  1   2360320  ultralytics.nn.modules.conv.Conv             [512, 512, 3, 2]              
+ 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 22                  -1  1   1642496  ultralytics.nn.modules.block.C3k2            [1024, 512, 1, True]          
+ 23        [16, 19, 22]  1   1415650  ultralytics.nn.modules.head.Detect           [6, [256, 512, 512]]          
+YOLO11m summary: 231 layers, 20,057,634 parameters, 20,057,618 gradients, 68.2 GFLOPs
+
+Transferred 649/649 items from pretrained weights
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 941.0±566.2 MB/s, size: 12.1 KB)
+[34m[1malbumentations: [0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, method='weighted_average', num_output_channels=3), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 975.6±499.0 MB/s, size: 18.1 KB)
+[34m[1moptimizer:[0m SGD(lr=0.005, momentum=0.9) with parameter groups 106 weight(decay=0.0), 113 weight(decay=0.0001), 112 bias(decay=0.0)
+Resuming training /tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native/weights/last.pt from epoch 2 to 2 total epochs
+Image sizes 64 train, 64 val
+Using 0 dataloader workers
+Logging results to [1m/tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native[0m
+Starting training for 2 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+                   all          2          2          0          0          0          0
+
+1 epochs completed in 0.001 hours.
+Optimizer stripped from /tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native/weights/last.pt, 40.5MB
+Optimizer stripped from /tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native/weights/best.pt, 40.5MB
+
+Validating /tmp/tmpfgiwfyw8/work/runs/coco_nw/yolo11m/seed_42/native/weights/best.pt...
+Ultralytics 8.3.253 🚀 Python-3.12.14 torch-2.10.0+cpu CPU (INTEL XEON PLATINUM 8573C)
+YOLO11m summary (fused): 125 layers, 20,034,658 parameters, 0 gradients, 67.7 GFLOPs
+                   all          2          2          0          0          0          0
+                person          1          1          0          0          0          0
+               bicycle          1          1          0          0          0          0
+Speed: 0.1ms preprocess, 20.5ms inference, 0.0ms loss, 0.3ms postprocess per image
+ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 11.549s
+
+OK

@@ -1,0 +1,18 @@
+[
+  {
+    "model": "yolo11m",
+    "weights_file": "yolo11m.pt",
+    "sha256": "d5ffc1a674953a08e11a8d21e022781b1b23a19b730afc309290bd9fb5305b95",
+    "pretrained_class_count": 80,
+    "loaded": true,
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m.pt"
+  },
+  {
+    "model": "rtdetr-l",
+    "weights_file": "rtdetr-l.pt",
+    "sha256": "6de60b10d4bc566f00cda0f5b4d64afe4b66d48dc9695d2171effb7859d8e73f",
+    "pretrained_class_count": 80,
+    "loaded": true,
+    "source": "https://github.com/ultralytics/assets/releases/download/v8.3.0/rtdetr-l.pt"
+  }
+]

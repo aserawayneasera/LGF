@@ -1,0 +1,149 @@
+test_all_seven_checkpoint_adapters_at_800_1333 (test_models.RealModelTests.test_all_seven_checkpoint_adapters_at_800_1333) ... skipped 'Set P1_REAL_MODEL_TESTS=1 for full-size CPU adapter checks'
+test_acdc_extraction_only_adverse_test (test_test_workflow.DatasetTests.test_acdc_extraction_only_adverse_test) ... ok
+test_archive_traversal_rejected (test_test_workflow.DatasetTests.test_archive_traversal_rejected) ... ok
+test_labelled_holdout_and_weather_keep_boxes (test_test_workflow.DatasetTests.test_labelled_holdout_and_weather_keep_boxes) ... TEST MANIFEST /tmp/tmpji5w6jrv/manifest.json images= 3
+TEST MANIFEST /tmp/tmpji5w6jrv/labelled.json images= 3
+TEST MANIFEST /tmp/tmpji5w6jrv/weather.json images= 3
+ok
+test_labelled_preparation_rejects_image_info (test_test_workflow.DatasetTests.test_labelled_preparation_rejects_image_info) ... ok
+test_manifest_edit_rejected (test_test_workflow.DatasetTests.test_manifest_edit_rejected) ... TEST MANIFEST /tmp/tmp59yoldk_/manifest.json images= 3
+ok
+test_prepared_manifest_and_image_changes (test_test_workflow.DatasetTests.test_prepared_manifest_and_image_changes) ... TEST MANIFEST /tmp/tmpaf7fhkvj/manifest.json images= 3
+ok
+test_source_variants_cannot_cross_partitions (test_test_workflow.DatasetTests.test_source_variants_cannot_cross_partitions) ... ok
+test_resume_checksum_and_private_url_redaction (test_test_workflow.DownloadTests.test_resume_checksum_and_private_url_redaction) ... DOWNLOAD COMPLETE /tmp/tmpk29jlso2/download.zip
+ok
+test_acdc_mapping_uses_official_ids_and_condition_files (test_test_workflow.ExportTests.test_acdc_mapping_uses_official_ids_and_condition_files) ... TEST MANIFEST /tmp/tmp1b5mayz3/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmp1b5mayz3/export
+ACDC SUBMISSIONS READY /tmp/tmp1b5mayz3/export/acdc_submission
+ok
+test_ambiguous_official_ids_rejected (test_test_workflow.ExportTests.test_ambiguous_official_ids_rejected) ... TEST MANIFEST /tmp/tmpd9s132n0/manifest.json images= 3
+ok
+test_coco_export_preserves_ids_and_remaps_names (test_test_workflow.ExportTests.test_coco_export_preserves_ids_and_remaps_names) ... TEST MANIFEST /tmp/tmpp1uet3g8/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmpp1uet3g8/export
+ok
+test_comparison_matches_seeds_and_rejects_export_reports (test_test_workflow.ExportTests.test_comparison_matches_seeds_and_rejects_export_reports) ... TEST MANIFEST /tmp/tmpr_kesng2/manifest.json images= 3
+TEST EXPORT baseline 2/3
+TEST EXPORT baseline 3/3
+EXPORT COMPLETE /tmp/tmpr_kesng2/baseline_42
+{
+  "mAP": 1.0,
+  "AP50": 1.0,
+  "AP75": 1.0,
+  "AP_small": 1.0,
+  "AP_medium": -1.0,
+  "AP_large": -1.0,
+  "AR1": 1.0,
+  "AR10": 1.0,
+  "AR100": 1.0,
+  "AR_small": 1.0,
+  "AR_medium": -1.0,
+  "AR_large": -1.0
+}
+TEST EXPORT baseline 2/3
+TEST EXPORT baseline 3/3
+EXPORT COMPLETE /tmp/tmpr_kesng2/baseline_1337
+{
+  "mAP": 1.0,
+  "AP50": 1.0,
+  "AP75": 1.0,
+  "AP_small": 1.0,
+  "AP_medium": -1.0,
+  "AP_large": -1.0,
+  "AR1": 1.0,
+  "AR10": 1.0,
+  "AR100": 1.0,
+  "AR_small": 1.0,
+  "AR_medium": -1.0,
+  "AR_large": -1.0
+}
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmpr_kesng2/lgf_original_42
+{
+  "mAP": 1.0,
+  "AP50": 1.0,
+  "AP75": 1.0,
+  "AP_small": 1.0,
+  "AP_medium": -1.0,
+  "AP_large": -1.0,
+  "AR1": 1.0,
+  "AR10": 1.0,
+  "AR100": 1.0,
+  "AR_small": 1.0,
+  "AR_medium": -1.0,
+  "AR_large": -1.0
+}
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmpr_kesng2/lgf_original_1337
+ok
+test_complete_export_resume_and_changed_selection_rejected (test_test_workflow.ExportTests.test_complete_export_resume_and_changed_selection_rejected) ... {
+  "mAP": 1.0,
+  "AP50": 1.0,
+  "AP75": 1.0,
+  "AP_small": 1.0,
+  "AP_medium": -1.0,
+  "AP_large": -1.0,
+  "AR1": 1.0,
+  "AR10": 1.0,
+  "AR100": 1.0,
+  "AR_small": 1.0,
+  "AR_medium": -1.0,
+  "AR_large": -1.0
+}
+TEST COMPARISON /tmp/tmpr_kesng2/comparison
+TEST MANIFEST /tmp/tmpp7cf7czd/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmpp7cf7czd/export
+ok
+test_export_to_local_six_class_score (test_test_workflow.ExportTests.test_export_to_local_six_class_score) ... TEST MANIFEST /tmp/tmps3ci6fe_/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmps3ci6fe_/export
+ok
+test_hidden_labels_never_produce_zero_ap (test_test_workflow.ExportTests.test_hidden_labels_never_produce_zero_ap) ... {
+  "mAP": 1.0,
+  "AP50": 1.0,
+  "AP75": 1.0,
+  "AP_small": 1.0,
+  "AP_medium": -1.0,
+  "AP_large": -1.0,
+  "AR1": 1.0,
+  "AR10": 1.0,
+  "AR100": 1.0,
+  "AR_small": 1.0,
+  "AR_medium": -1.0,
+  "AR_large": -1.0
+}
+TEST MANIFEST /tmp/tmp_ztov8oc/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmp_ztov8oc/export
+ok
+test_interrupted_export_reuses_completed_batches (test_test_workflow.ExportTests.test_interrupted_export_reuses_completed_batches) ... TEST MANIFEST /tmp/tmp67tntfaj/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmp67tntfaj/export
+ok
+test_modified_predictions_rejected (test_test_workflow.ExportTests.test_modified_predictions_rejected) ... TEST MANIFEST /tmp/tmpg2s_aicw/manifest.json images= 3
+TEST EXPORT lgf_original 2/3
+TEST EXPORT lgf_original 3/3
+EXPORT COMPLETE /tmp/tmpg2s_aicw/export
+ok
+test_partial_export_not_submission_or_result (test_test_workflow.ExportTests.test_partial_export_not_submission_or_result) ... TEST MANIFEST /tmp/tmp5t97l_9g/manifest.json images= 3
+TEST EXPORT lgf_original 1/1
+EXPORT COMPLETE /tmp/tmp5t97l_9g/export
+ok
+test_perfect_empty_and_unsupported_classes (test_test_workflow.MetricTests.test_perfect_empty_and_unsupported_classes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.969s
+
+OK (skipped=1)

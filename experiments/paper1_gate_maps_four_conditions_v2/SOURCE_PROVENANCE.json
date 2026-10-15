@@ -1,0 +1,17 @@
+{
+  "source_package": "paper1_gate_maps_four_conditions_v2",
+  "preserved_scientific_python": true,
+  "removed_generated_directories": [],
+  "integration_changes": [
+    "Repository documentation links",
+    "Portable shell launcher paths where present",
+    "Synthetic regression tests where newly added",
+    "Source-only checksums regenerated"
+  ],
+  "original_files_sha256": {
+    "README.md": "09c4a3b0aaa6a291e231fc2d915d8dd6df96cf2e4fafe6011b583644f7072ec5",
+    "coco_weather_image_conditions.csv": "4a5a8609772a1db3c4c9d5243104a22636e4cc3923fd6b9a672776d301e7e2e0",
+    "paper1_gate_visualization_conditions_v2.py": "5d3ca555019f53355309b426ef4ed928ebe4d6c33b08fa68aabf1f58d7054094",
+    "run_gate_maps_conditions_v2.sh": "524e01e1f298dceb8e80e87b4d99d229a652477ac568b9dc97d67472426716eb"
+  }
+}

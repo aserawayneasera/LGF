@@ -1,0 +1,12 @@
+{
+  "recovered_filename": "paper1_paired_bootstrap(2).py",
+  "script_version": "1.0.1",
+  "original_sha256": "6b2bed22807197b4e6fcca51cd11addf6ebabe8d4817011167f0f83eb419c517",
+  "distributed_filename": "paper1_paired_bootstrap.py",
+  "algorithm_modified": false,
+  "added_files": [
+    "README.md",
+    "requirements.txt",
+    "tests/test_bootstrap.py"
+  ]
+}

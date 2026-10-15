@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "python_executable": "/workspace/scratch/6c1737cfcc0f/inspection/recent_test_env/bin/python",
+  "module_paths": {
+    "torch": "/workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torch/__init__.py",
+    "torchvision": "/workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torchvision/__init__.py",
+    "ultralytics": "/workspace/scratch/6c1737cfcc0f/inspection/recent_test_env/lib/python3.12/site-packages/ultralytics/__init__.py"
+  },
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "torchvision": "0.25.0+cpu",
+    "ultralytics": "8.3.253",
+    "numpy": "2.3.5",
+    "pycocotools": "2.0.11",
+    "albumentations": "2.0.8"
+  },
+  "cuda": null,
+  "cuda_available": false,
+  "gpu": null
+}
+ENVIRONMENT PASS

@@ -1,0 +1,18 @@
+{
+  "checkpoints": [
+    {
+      "dataset": "coco_nw",
+      "placement": "C3",
+      "seed": 42,
+      "checkpoint": "/nas.dbms/asera/paper1_original/ugs_comparison/runs/coco_nw/lgf_original/seed_42/best_ap_small.pth",
+      "metrics": "/nas.dbms/asera/paper1_original/ugs_comparison/runs/coco_nw/lgf_original/seed_42/best_ap_small.metrics.json"
+    },
+    {
+      "dataset": "coco_nw",
+      "placement": "C3_C4",
+      "seed": 42,
+      "checkpoint": "/nas.dbms/asera/paper1_original/ugs_comparison/runs_C3_C4/coco_nw/lgf_original/seed_42/best_ap_small.pth",
+      "metrics": "/nas.dbms/asera/paper1_original/ugs_comparison/runs_C3_C4/coco_nw/lgf_original/seed_42/best_ap_small.metrics.json"
+    }
+  ]
+}

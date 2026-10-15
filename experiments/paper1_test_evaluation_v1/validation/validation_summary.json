@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-15",
+  "workflow_tests_passed": 19,
+  "opt_in_model_test_passed": true,
+  "model_adapters": [
+    "baseline",
+    "lgf_original",
+    "se",
+    "cbam",
+    "ugs_reimpl",
+    "yolo11m",
+    "rtdetr-l"
+  ],
+  "evaluation_geometry": [
+    800,
+    1333
+  ],
+  "synthetic_images": true,
+  "real_paper1_results_produced": false,
+  "authenticated_acdc_download_or_submission_tested": false,
+  "full_coco_image_archive_downloaded_here": false,
+  "official_coco_metadata_download": {
+    "source_sha256": "401c92bf4bed967d1ecfe907d4abc6385d645b40fdc2a7332834315ebeb4d267",
+    "etag": "\"85da7065e5e600ebfee8af1edb634eb5\"",
+    "expected_size": 1144034,
+    "complete": true,
+    "bytes": 1144034,
+    "sha256": "e52f412dd7195ac8f98d782b44c6dd30ea10241e9f42521f67610fbe055a74f8",
+    "publisher_checksum_verified": true
+  },
+  "original_sources_unchanged": 21,
+  "notebook_code_cells_parsed": 8
+}

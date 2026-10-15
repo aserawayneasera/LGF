@@ -1,0 +1,6 @@
+PROBE START convolution device=cpu
+TORCH 2.10.0+cpu FROM /workspace/scratch/6c1737cfcc0f/inspection/ugs_test_env/lib/python3.12/site-packages/torch/__init__.py
+CUDA BUILD None; CUDNN None
+CONV forward/backward
+CONV evaluation
+PROBE PASS convolution device=cpu

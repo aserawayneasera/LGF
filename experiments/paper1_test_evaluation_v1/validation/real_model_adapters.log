@@ -1,0 +1,18 @@
+test_all_seven_checkpoint_adapters_at_800_1333 (test_models.RealModelTests.test_all_seven_checkpoint_adapters_at_800_1333) ... REAL ADAPTER PASS baseline detections= 100
+/workspace/scratch/6c1737cfcc0f/output/paper1_ugs_comparison_v1/vendor/original_core.py:299: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=False):
+REAL ADAPTER PASS lgf_original detections= 100
+REAL ADAPTER PASS se detections= 100
+REAL ADAPTER PASS cbam detections= 100
+REAL ADAPTER PASS ugs_reimpl detections= 100
+Overriding model.yaml nc=80 with nc=6
+REAL ADAPTER PASS yolo11m detections= 100
+Overriding model.yaml nc=80 with nc=6
+WARNING ⚠️ no model scale passed. Assuming scale='l'.
+REAL ADAPTER PASS rtdetr-l detections= 100
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 36.853s
+
+OK

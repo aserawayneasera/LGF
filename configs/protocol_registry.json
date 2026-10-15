@@ -1,0 +1,23 @@
+{
+  "purpose": "Documentation registry. Not a replacement for saved run protocol.json or CLI arguments.",
+  "manuscript_number": "PRLETTERS-D-26-00171",
+  "seeds": [42, 1337, 2025],
+  "classes": ["person", "car", "truck", "bicycle", "bus", "motorcycle"],
+  "reported_families": [
+    {"family": "retained_primary_tables", "workflow": "legacy-train", "location": "Tables 1-2, S3-S4, S13", "checkpoint_rule": "APsmall aggregation; legacy checkpoint saving uses mAP, verify original epoch records"},
+    {"family": "trained_fusion_alternatives", "workflow": "legacy-train", "location": "Section 5.4, Table S5", "modes": ["lgf_sum", "lgf_softmax", "lgf_gated_spatial"]},
+    {"family": "recent_detectors", "workflow": "detectors", "location": "Section 5.6, Tables 3 and S10", "checkpoint_rule": "best_ap_small", "methods": ["ugs_reimpl", "yolo11m", "rtdetr-l"]},
+    {"family": "frozen_gate_controls", "workflow": "controls", "location": "Section 5.5, Table S7", "checkpoint_rule": "best_ap_small", "suite": "paper", "evaluations": 72},
+    {"family": "paired_uncertainty", "workflow": "bootstrap", "location": "Table S11", "replicates": 10000, "confidence": 0.95, "unit": "APsmall percentage points"},
+    {"family": "condition_ap", "workflow": "weather", "location": "Section 5.9, Tables 7 and S8-S9", "checkpoint_rule": "best_map", "synthetic_images": {"fog": 500, "rain": 500, "snow": 500, "all": 1500}, "acdc_images": {"fog": 91, "night": 94, "rain": 112, "snow": 102, "all": 399}},
+    {"family": "clear_to_weather", "workflow": "weather", "location": "Section 5.3, Table S6", "train_dataset": "coco_nw", "eval_dataset": "coco_weather", "checkpoint_rule": "fixed verified original checkpoint, no retraining"},
+    {"family": "matched_gate_maps", "workflow": "gate-maps", "location": "Figures S3-S6, Table S12", "seed": 42, "conditions": ["clear", "fog", "rain", "snow"], "scenes": 4},
+    {"family": "failure_diagnostics", "workflow": "failures", "location": "Section S12, Tables S14-S16, Figures S7-S10", "checkpoint_rule": "best_map", "primary_confidence": 0.25, "primary_iou": 0.50, "tn_defined": false},
+    {"family": "placement_accuracy", "workflow": "multilevel", "location": "Section 5.8, Table 5 and S17", "reported_saved_labels": ["C3", "C4"], "comparison": "descriptive"},
+    {"family": "placement_profile", "workflow": "profile", "location": "Table 6, Section S13", "reported_saved_labels": ["C3", "C4"], "reference_image": [3, 800, 1333], "operation_scope": "convolution and linear GMACs"},
+    {"family": "c4_pooled_weather", "workflow": "c4-weather", "location": "Table S17", "selection_support": "original 500-image fog subset", "scoring_support": "1500 images from 500 source scenes"}
+  ],
+  "additional_source_only_workflows": ["official-export", "acdc-gate-maps"],
+  "official_test_ap_reported": false,
+  "numeric_category_ids": "Read from each actual annotation snapshot. Never infer from this list order."
+}

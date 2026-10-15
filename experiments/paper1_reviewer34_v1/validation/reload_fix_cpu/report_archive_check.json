@@ -1,0 +1,35 @@
+{
+  "python": "/workspace/scratch/6c1737cfcc0f/inspection/recent_test_env/bin/python",
+  "device": "cpu",
+  "diagnostic_cuda_launch_blocking": true,
+  "checks": [
+    {
+      "name": "environment",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_archive_check/run_20260915T041429276236Z/environment.log",
+      "status": "passed"
+    },
+    {
+      "name": "tensor_cpu",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_archive_check/run_20260915T041429276236Z/tensor_cpu.log",
+      "status": "passed"
+    },
+    {
+      "name": "convolution_cpu",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_archive_check/run_20260915T041429276236Z/convolution_cpu.log",
+      "status": "passed"
+    },
+    {
+      "name": "nms_cpu",
+      "returncode": 0,
+      "log": "/workspace/scratch/887f0941a846/validation_archive_check/run_20260915T041429276236Z/nms_cpu.log",
+      "status": "passed"
+    }
+  ],
+  "complete": true,
+  "scientific_result": false,
+  "status": "passed",
+  "full_smoke_requested": false
+}

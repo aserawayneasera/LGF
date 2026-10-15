@@ -1,0 +1,42 @@
+[
+  {
+    "path": "archived_profile_loader.py",
+    "sha256": "ce7e424c4659ff3628c044f555782f47550ca308b23e2eb8bfaab519758cbdba",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "model_source/core_bridge.py",
+    "sha256": "10379d7c2ecda3dcdd68a58f8192979b27cf7618e0c19f9287709a417b08f7ea",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "model_source/multilevel.py",
+    "sha256": "9d155fac1c7fd0dfc1c23cfd33df4058358557b45813f3aa6840aaa1950a8997",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "model_source/ugs.py",
+    "sha256": "411920155bc6e99183f0ca7cf8e2ba23953401473874a454982718f2dad4f9a1",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "model_source/vendor/original_core.py",
+    "sha256": "64a662586fd3c5b71a850ca7db19079d13366dfabae7b764e02de1f49567ae95",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "prepare_coco_weather_variants.py",
+    "sha256": "de805dcee6bac1dad949e285a5d4229f4e97b822ad68fd7c7b11c0eb26b88347",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "weather_metrics.py",
+    "sha256": "5a0b6a1ee7eda93748f52c7d8220b22e53843c49b58e55903ab28d3d262f4d20",
+    "status": "unchanged archived source"
+  },
+  {
+    "path": "model_source/vendor/source_identity.json",
+    "sha256": "ba127f7aaa02de0dce163a0e0eecca14a6966eafe21117a68a065a208b9c6944",
+    "status": "unchanged archived source"
+  }
+]

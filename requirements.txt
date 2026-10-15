@@ -1,0 +1,12 @@
+# Install matching PyTorch/Torchvision separately for your GPU.
+# Archived runners explicitly require torch 2.10.x and torchvision 0.25.x.
+numpy>=1.26,<3
+albumentations==2.0.8
+pycocotools==2.0.11
+tensorboard>=2.16,<3
+matplotlib>=3.7
+tqdm>=4.66
+opencv-python-headless>=4.9,<6
+Pillow>=10
+PyYAML>=6
+scipy>=1.11

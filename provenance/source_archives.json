@@ -1,0 +1,77 @@
+{
+  "github_repository": "https://github.com/aserawayneasera/LGF",
+  "github_commit": "0125590291f52469eb6427697cc2d319bcdce6fd",
+  "archives": [
+    {
+      "archive": "c4_weather_evaluation_v1.zip",
+      "sha256": "16c16c8d53bfa66946930e2b572006e1dc0e349fc9a418b6de053cdd91192e20",
+      "source_entries": 16,
+      "archive_entries": 17
+    },
+    {
+      "archive": "lgf_original_controls_v1.zip",
+      "sha256": "265ea20d4120192bae7d24404f3776fb5d7810b3314498d2d0773ecddc91fe80",
+      "source_entries": 16,
+      "archive_entries": 19
+    },
+    {
+      "archive": "paper1_acdc_gate_maps_by_condition_v1.zip",
+      "sha256": "a66f58953a932df136ce60af9d8105231ef641ebbc5247923c3f5d470c75fc1f",
+      "source_entries": 4,
+      "archive_entries": 5
+    },
+    {
+      "archive": "paper1_all_codes_with_test_evaluation(1).zip",
+      "sha256": "185d3b02d59e1e69bd4752882c642785ba8fe5709578d2aba20c177603cfa045",
+      "source_entries": 57,
+      "archive_entries": 74
+    },
+    {
+      "archive": "paper1_balanced_failures_v1.zip",
+      "sha256": "ceef39b49fea79c79bfd1d17cca2a08147a8257cb9de8d3038807c4807e1e6ac",
+      "source_entries": 5,
+      "archive_entries": 7
+    },
+    {
+      "archive": "paper1_coco_three_weather_v1.zip",
+      "sha256": "2cabdddc9566542c373687824b6292788e1564c5bb4c0f11e2448fad8e817156",
+      "source_entries": 5,
+      "archive_entries": 5
+    },
+    {
+      "archive": "paper1_gate_maps_four_conditions_v2.zip",
+      "sha256": "76e6cd3ac5c043502209b35166ee9c1798ba24ccb14c19b011acdd742bd0e697",
+      "source_entries": 3,
+      "archive_entries": 4
+    },
+    {
+      "archive": "paper1_placement_profile_v1.zip",
+      "sha256": "8a644ded10fafb348884b657bbf4d2a791a03ea5ece7db104dc4fe55b67d767b",
+      "source_entries": 13,
+      "archive_entries": 15
+    },
+    {
+      "archive": "paper1_se_cbam_extension_nas_v1_0_2.zip",
+      "sha256": "ea90850f2907da3854830ffe3ca4027a6bc703b31f13b6556089138a1fe9a5e4",
+      "source_entries": 9,
+      "archive_entries": 11
+    },
+    {
+      "archive": "paper1_ugs_multilevel_v1.zip",
+      "sha256": "1d67939fc34f847fe3440efd5204d158a75678ed02d1d80550c1b9d9d36c1f15",
+      "source_entries": 25,
+      "archive_entries": 31
+    },
+    {
+      "archive": "paper1_weather_eval_v1.zip",
+      "sha256": "bec0d6ce59693d14ee95ebd28c2627ce69b91811bdbee4bc4e85c41b5ead94af",
+      "source_entries": 5,
+      "archive_entries": 7
+    },
+    {
+      "archive": "paper1_paired_bootstrap(2).py",
+      "sha256": "6b2bed22807197b4e6fcca51cd11addf6ebabe8d4817011167f0f83eb419c517",
+      "source_entries": 1
+    }
+  ]
+}
